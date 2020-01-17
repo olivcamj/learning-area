@@ -86,9 +86,9 @@
       guessField.value = '';
       //then focus it again; ready for the next guess
       guessField.focus();
-      
-      guessSubmit.addEventListener('click', checkGuess);
     }
+     guessSubmit.addEventListener('click', checkGuess);
+      
      function setGameOver() {
        //disable form field to prevent entries after game is over
         guessField.disabled = true;
